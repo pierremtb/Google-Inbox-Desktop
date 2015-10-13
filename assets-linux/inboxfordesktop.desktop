@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Inbox
+Icon=inboxfordesktop
+Exec=/opt/InboxForDesktop/Inbox
+Comment=Inbox for Desktop
+Categories=Network;Chat;
+Terminal=false

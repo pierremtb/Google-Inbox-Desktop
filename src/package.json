@@ -1,0 +1,32 @@
+{
+  "main": "app.html",
+  "name": "Inbox",
+  "version": "1.4.3",
+  "app-id": "com.pierrejacquier.inboxfordesktop",
+  "chromium-args": "--disable-setuid-sandbox",
+  "window": {
+    "width": 800,
+    "height": 600,
+    "title": "Inbox",
+    "icon": "images/icon.png",
+    "toolbar": false,
+    "show": false
+  },
+  "webkit": {
+    "plugin": true
+  },
+  "dependencies": {
+    "async": "^1.0.0",
+    "auto-launch": "^0.1.18",
+    "jfs": "^0.2.5",
+    "request": "^2.56.0",
+    "semver": "^4.3.5"
+  },
+  "manifestUrl": "https://raw.githubusercontent.com/Aluxian/Facebook-Messenger-Desktop/master/src/package.json",
+  "packages": {
+    "osx64": "https://github.com/pierremtb/Google-Inbox-Desktop/releases/download/v0.1/Inbox.dmg",
+    "win32": "https://github.com/pierremtb/Google-Inbox-Desktop/releases/download/v0.1/InboxSetup.exe",
+    "linux32": "https://github.com/pierremtb/Google-Inbox-Desktop/releases/download/v0.1/Inbox_linux32.deb",
+    "linux64": "https://github.com/pierremtb/Google-Inbox-Desktop/releases/download/v0.1/Inbox_linux64.deb"
+  }
+}
