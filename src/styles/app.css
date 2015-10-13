@@ -12,7 +12,7 @@ html, body, iframe {
 
 body {
   background-image: url('../images/loading.gif');
-  background-size: 24px 19px;
+  background-size: 24px 24px;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;

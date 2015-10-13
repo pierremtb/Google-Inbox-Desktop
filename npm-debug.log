@@ -1,0 +1,96 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'makensis' ]
+2 info using npm@2.14.7
+3 info using node@v4.2.1
+4 verbose install initial load of C:\Users\pierr\Documents\GitHub\Google-Inbox-Desktop\package.json
+5 warn package.json Inbox@0.1.0 No license field.
+6 verbose installManyTop reading scoped package data from C:\Users\pierr\Documents\GitHub\Google-Inbox-Desktop\node_modules\coffee-script\package.json
+7 verbose installManyTop reading scoped package data from C:\Users\pierr\Documents\GitHub\Google-Inbox-Desktop\node_modules\gulp\package.json
+8 verbose installManyTop reading scoped package data from C:\Users\pierr\Documents\GitHub\Google-Inbox-Desktop\node_modules\gulp-github-release\package.json
+9 verbose installManyTop reading scoped package data from C:\Users\pierr\Documents\GitHub\Google-Inbox-Desktop\node_modules\gulp-load-plugins\package.json
+10 verbose installManyTop reading scoped package data from C:\Users\pierr\Documents\GitHub\Google-Inbox-Desktop\node_modules\gulp-node-webkit-builder\package.json
+11 verbose installManyTop reading scoped package data from C:\Users\pierr\Documents\GitHub\Google-Inbox-Desktop\node_modules\gulp-uglify\package.json
+12 verbose installManyTop reading scoped package data from C:\Users\pierr\Documents\GitHub\Google-Inbox-Desktop\node_modules\merge-stream\package.json
+13 verbose installManyTop reading scoped package data from C:\Users\pierr\Documents\GitHub\Google-Inbox-Desktop\node_modules\run-sequence\package.json
+14 verbose installManyTop reading scoped package data from C:\Users\pierr\Documents\GitHub\Google-Inbox-Desktop\node_modules\shelljs\package.json
+15 info package.json shelljs@0.5.3 license should be a valid SPDX license expression
+16 verbose readDependencies loading dependencies from C:\Users\pierr\Documents\GitHub\Google-Inbox-Desktop\package.json
+17 silly cache add args [ 'makensis', null ]
+18 verbose cache add spec makensis
+19 silly cache add parsed spec Result {
+19 silly cache add   raw: 'makensis',
+19 silly cache add   scope: null,
+19 silly cache add   name: 'makensis',
+19 silly cache add   rawSpec: '',
+19 silly cache add   spec: '*',
+19 silly cache add   type: 'range' }
+20 silly addNamed makensis@*
+21 verbose addNamed "*" is a valid semver range for makensis
+22 silly addNameRange { name: 'makensis', range: '*', hasData: false }
+23 silly mapToRegistry name makensis
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry uri https://registry.npmjs.org/makensis
+27 verbose addNameRange registry:https://registry.npmjs.org/makensis not in flight; fetching
+28 verbose request uri https://registry.npmjs.org/makensis
+29 verbose request no auth needed
+30 info attempt registry request try #1 at 20:50:50
+31 verbose request id b1030bb4e10edbfb
+32 http request GET https://registry.npmjs.org/makensis
+33 http 404 https://registry.npmjs.org/makensis
+34 verbose headers { 'content-type': 'application/json',
+34 verbose headers   'cache-control': 'max-age=0',
+34 verbose headers   'content-length': '2',
+34 verbose headers   'accept-ranges': 'bytes',
+34 verbose headers   date: 'Tue, 13 Oct 2015 18:50:51 GMT',
+34 verbose headers   via: '1.1 varnish',
+34 verbose headers   age: '0',
+34 verbose headers   connection: 'keep-alive',
+34 verbose headers   'x-served-by': 'cache-fra1239-FRA',
+34 verbose headers   'x-cache': 'MISS',
+34 verbose headers   'x-cache-hits': '0',
+34 verbose headers   'x-timer': 'S1444762251.363906,VS0,VE233' }
+35 silly get cb [ 404,
+35 silly get   { 'content-type': 'application/json',
+35 silly get     'cache-control': 'max-age=0',
+35 silly get     'content-length': '2',
+35 silly get     'accept-ranges': 'bytes',
+35 silly get     date: 'Tue, 13 Oct 2015 18:50:51 GMT',
+35 silly get     via: '1.1 varnish',
+35 silly get     age: '0',
+35 silly get     connection: 'keep-alive',
+35 silly get     'x-served-by': 'cache-fra1239-FRA',
+35 silly get     'x-cache': 'MISS',
+35 silly get     'x-cache-hits': '0',
+35 silly get     'x-timer': 'S1444762251.363906,VS0,VE233' } ]
+36 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/makensis
+36 verbose stack     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:264:12)
+36 verbose stack     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:242:14)
+36 verbose stack     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:172:14)
+36 verbose stack     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:198:22)
+36 verbose stack     at emitTwo (events.js:87:13)
+36 verbose stack     at Request.emit (events.js:172:7)
+36 verbose stack     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1063:14)
+36 verbose stack     at emitOne (events.js:82:20)
+36 verbose stack     at Request.emit (events.js:169:7)
+36 verbose stack     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1009:12)
+37 verbose statusCode 404
+38 verbose pkgid makensis
+39 verbose cwd C:\Users\pierr\Documents\GitHub\Google-Inbox-Desktop
+40 error Windows_NT 10.0.10532
+41 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "makensis"
+42 error node v4.2.1
+43 error npm  v2.14.7
+44 error code E404
+45 error 404 Registry returned 404 for GET on https://registry.npmjs.org/makensis
+45 error 404
+45 error 404 'makensis' is not in the npm registry.
+45 error 404 You should bug the author to publish it (or use the name yourself!)
+45 error 404 It was specified as a dependency of 'Inbox'
+45 error 404
+45 error 404 Note that you can also install from a
+45 error 404 tarball, folder, http url, or git url.
+46 verbose exit [ 1, true ]
